@@ -1,0 +1,133 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+
+}
+
+p {
+    margin: 47px 0 57px;
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+}
+
+.topLink {
+    cursor: pointer;
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+}
+
+
+.bottomLink {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+}
+
+div {
+    margin-left: 84.82px;
+    display: inline-block;
+}
+
+.wrapper {
+    margin: 150px 0 0 121px
+}
+
+
+button {
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin-left: 32px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 9px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.bottomLink:hover {
+    opacity: 0.8;
+}
+
+.topLink:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:900px) {
+
+    div {
+        display: block;
+    }
+
+    button {
+        top: calc(50% - 18px/2 - 0.5px);
+        margin: 17px 15px 0 284px;
+    }
+
+    .topLink {
+        display: none;
+    }
+
+    img {
+        margin-top: 285px;
+        margin-left: -75px;
+        width: 312px;
+        height: 288px;
+    }
+
+    h1 {
+        margin-top: -700px;
+        margin-left: -155px;
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    p {
+        margin-left: -155px;
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+    }
+
+    .bottomLink {
+        margin: -55px;
+
+    }
+
+}
